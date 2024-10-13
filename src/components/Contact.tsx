@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail, Phone } from 'lucide-react'
 
 export default function Contact() {
   return (
-    <div className='flex flex-col items-start gap-2'>
+    <div className='flex w-full flex-col items-start gap-2 sm:w-fit xl:w-full'>
       <a href='tel:+1 343 597 2566' className='flex gap-2 transition-colors hover:text-primary'>
         <Phone className='text-muted-foreground' />
         +1 343 597 2566
