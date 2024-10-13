@@ -9,7 +9,7 @@ import Work from '@/components/Work'
 function App() {
   return (
     <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
-      <div className='w-full p-4 sm:p-6'>
+      <div className='mx-auto w-full max-w-screen-2xl p-4 sm:p-6'>
         <Card>
           <div className='flex'>
             <div className='flex flex-col items-center gap-6 p-4 sm:p-6'>
