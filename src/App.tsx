@@ -39,8 +39,8 @@ function App() {
               </div>
             </div>
             <div className='hidden w-[420px] shrink-0 flex-col items-center gap-10 border-s p-6 xl:flex'>
-              <div className='relative flex w-full justify-center py-6'>
-                <img src={profilePic} className='w-40 rounded-lg' />
+              <div className='relative flex w-full justify-center py-7'>
+                <img src={profilePic} className='w-48 rounded-lg' />
                 <div className='absolute end-0 top-6'>
                   <ThemeToggle />
                 </div>

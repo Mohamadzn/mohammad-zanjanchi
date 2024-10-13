@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <div className='flex w-full flex-col gap-4'>
-      <h2 className='scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight sm:text-3xl'>
+      <h2 className='scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight text-primary sm:text-3xl'>
         PROJECTS
       </h2>
       <div className='flex w-full flex-col gap-10'>

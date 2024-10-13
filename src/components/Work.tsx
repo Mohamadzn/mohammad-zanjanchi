@@ -1,11 +1,13 @@
+import { Separator } from '@/components/ui/separator'
+
 export default function Work() {
   return (
     <div className='flex w-full flex-col gap-4'>
-      <h2 className='scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight sm:text-3xl'>
+      <h2 className='scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight text-primary sm:text-3xl'>
         WORK EXPERIENCE
       </h2>
-      <div className='flex w-full flex-col gap-10'>
-        <div className='flex flex-col gap-4'>
+      <div className='flex w-full flex-col items-center gap-6'>
+        <div className='flex w-full flex-col gap-4'>
           <div className='flex flex-col justify-between gap-2 lg:flex-row'>
             <div className='flex flex-col'>
               <h4 className='text-xl font-semibold sm:text-2xl'>Persia Arya Ceramic Co</h4>
@@ -39,7 +41,9 @@ export default function Work() {
           </ul>
         </div>
 
-        <div className='flex flex-col gap-4'>
+        <Separator className='w-3/5' />
+
+        <div className='flex w-full flex-col gap-4'>
           <div className='flex flex-col justify-between gap-2 lg:flex-row'>
             <div className='flex flex-col'>
               <h4 className='text-xl font-semibold sm:text-2xl'>Ertebat Gostar Partov-e-Abi Company</h4>
@@ -68,7 +72,9 @@ export default function Work() {
           </ul>
         </div>
 
-        <div className='flex flex-col gap-4'>
+        <Separator className='w-3/5' />
+
+        <div className='flex w-full flex-col gap-4'>
           <div className='flex flex-col justify-between gap-2 lg:flex-row'>
             <div className='flex flex-col'>
               <h4 className='text-xl font-semibold sm:text-2xl'>Tettra puzzle</h4>
@@ -88,7 +94,9 @@ export default function Work() {
           </ul>
         </div>
 
-        <div className='flex flex-col gap-4'>
+        <Separator className='w-3/5' />
+
+        <div className='flex w-full flex-col gap-4'>
           <div className='flex flex-col justify-between gap-2 lg:flex-row'>
             <div className='flex flex-col'>
               <h4 className='text-xl font-semibold sm:text-2xl'>MIDOPIA GAME STUDIO</h4>
