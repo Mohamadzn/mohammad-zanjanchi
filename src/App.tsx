@@ -5,6 +5,7 @@ import Skills from '@/components/Skills'
 import Contact from '@/components/Contact'
 import Summary from '@/components/Summary'
 import Work from '@/components/Work'
+import Education from '@/components/Education'
 
 function App() {
   return (
@@ -25,12 +26,16 @@ function App() {
                 <Skills />
               </div>
               <Work />
+              <div className='w-full xl:hidden'>
+                <Education />
+              </div>
             </div>
-            <div className='hidden w-[400px] shrink-0 flex-col items-center gap-4 border-s p-4 sm:gap-6 sm:p-6 xl:flex'>
+            <div className='hidden w-[420px] shrink-0 flex-col items-center gap-6 border-s p-6 xl:flex'>
               <div className='py-4'>
                 <img src={profilePic} className='w-40 rounded-lg' />
               </div>
               <Skills />
+              <Education />
             </div>
           </div>
         </Card>
