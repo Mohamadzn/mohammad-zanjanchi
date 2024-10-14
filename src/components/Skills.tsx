@@ -61,7 +61,7 @@ export default function Skills() {
           </div>
         </div>
         <div className='flex flex-col gap-2'>
-          <h4 className='text-lg font-semibold tracking-tight'>Operating system</h4>
+          <h4 className='text-lg font-semibold tracking-tight'>Operating System</h4>
           <div className='flex flex-wrap gap-2'>
             <Badge variant='secondary' className='whitespace-nowrap text-sm'>
               GNU/Linux
