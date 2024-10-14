@@ -8,8 +8,9 @@ import Work from '@/components/Work'
 import Education from '@/components/Education'
 import Projects from '@/components/Projects'
 import ThemeToggle from '@/components/ThemeToggle'
+import Portfolio from '@/components/Portfolio'
 
-function App() {
+export default function App() {
   return (
     <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
       <div className='mx-auto w-full max-w-screen-2xl p-4 sm:p-6'>
@@ -26,7 +27,10 @@ function App() {
                 </div>
               </div>
               <Contact />
-              <Summary />
+              <div className='w-full xl:hidden'>
+                <Summary />
+              </div>
+              <Portfolio />
               <div className='w-full xl:hidden'>
                 <Skills />
               </div>
@@ -45,6 +49,7 @@ function App() {
                   <ThemeToggle />
                 </div>
               </div>
+              <Summary />
               <Skills />
               <Education />
               <Projects />
@@ -55,5 +60,3 @@ function App() {
     </ThemeProvider>
   )
 }
-
-export default App

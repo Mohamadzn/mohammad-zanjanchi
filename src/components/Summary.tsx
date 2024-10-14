@@ -1,6 +1,6 @@
 export default function Summary() {
   return (
-    <div className='flex flex-col gap-4'>
+    <div className='flex w-full flex-col gap-4'>
       <h2 className='scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight text-primary sm:text-3xl'>
         SUMMARY
       </h2>
