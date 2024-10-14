@@ -1,5 +1,3 @@
-import portfolio from '../../public/mohammad-zanjanchi-portfolio.mp4'
-
 export default function Portfolio() {
   return (
     <div className='flex w-full flex-col gap-4'>
@@ -8,9 +6,14 @@ export default function Portfolio() {
       </h2>
       <div className='relative w-full overflow-hidden rounded-lg'>
         <video controls>
-          <source src={portfolio} type='video/mp4' />
+          <source
+            src='http://mohammad-zanjanchi.s3-website.us-east-2.amazonaws.com/mammad%20portfolio.mp4'
+            type='video/mp4'
+          />
           Your browser does not support the video tag. Please{' '}
-          <a href={portfolio}>click here to download the video.</a>
+          <a href='http://mohammad-zanjanchi.s3-website.us-east-2.amazonaws.com/mammad%20portfolio.mp4'>
+            click here to download the video.
+          </a>
         </video>
       </div>
     </div>
