@@ -15,7 +15,7 @@ export default function App() {
     <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
       <div className='mx-auto w-full max-w-screen-2xl p-4 sm:p-6'>
         <Card>
-          <div className='flex'>
+          <div className='flex w-full'>
             <div className='flex flex-col items-center gap-10 p-4 sm:p-6'>
               <h1 className='scroll-m-20 whitespace-nowrap text-2xl font-semibold tracking-tight md:text-4xl xl:text-5xl'>
                 MOHAMMAD ZANJANCHI
