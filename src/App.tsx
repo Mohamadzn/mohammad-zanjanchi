@@ -8,7 +8,6 @@ import Work from '@/components/Work'
 import Education from '@/components/Education'
 import Projects from '@/components/Projects'
 import ThemeToggle from '@/components/ThemeToggle'
-import Portfolio from '@/components/Portfolio'
 
 export default function App() {
   return (
@@ -30,7 +29,7 @@ export default function App() {
               <div className='w-full xl:hidden'>
                 <Summary />
               </div>
-              <Portfolio />
+              {/* <Portfolio /> */}
               <div className='w-full xl:hidden'>
                 <Skills />
               </div>

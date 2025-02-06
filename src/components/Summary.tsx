@@ -5,10 +5,9 @@ export default function Summary() {
         SUMMARY
       </h2>
       <p className='leading-7'>
-        Innovative software and game developer with robust experience in creating games and software
-        solutions. Demonstrates expertise in both team and individual settings, leveraging diverse technology
-        resources to achieve project goals. Adept at incorporating feedback, listening to critiques, and
-        enhancing project outcomes to exceed expectations.
+        Data Engineer skilled in designing scalable data solutions, building ETL pipelines, and optimizing
+        workflows. Proficient in SQL, Python, PySpark, and AWS cloud services. Experienced in transforming
+        data into actionable insights to drive business decisions
       </p>
     </div>
   )

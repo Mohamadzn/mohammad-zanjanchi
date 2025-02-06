@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react'
+import { Github, Linkedin, Mail, Phone } from 'lucide-react'
 
 export default function Contact() {
   return (
@@ -30,14 +30,14 @@ export default function Contact() {
         <Linkedin className='text-muted-foreground group-hover:text-primary' />
         Mohammad Zanjanchi
       </a>
-      <a
+      {/* <a
         target='_blank'
         href='https://maps.app.goo.gl/CA1YULQCnFPptjMv7'
         className='group flex gap-2 py-1 transition-colors hover:text-primary'
       >
         <MapPin className='text-muted-foreground group-hover:text-primary' />
         308 MCConvey Drive, Richmond Hill, Ontario, L4C 3K3
-      </a>
+      </a> */}
     </div>
   )
 }

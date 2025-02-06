@@ -11,7 +11,7 @@ export default function Skills() {
           <h4 className='text-lg font-semibold tracking-tight'>Programming Languages</h4>
           <div className='flex flex-wrap gap-2'>
             <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              C# (proficient)
+              C#
             </Badge>
             <Badge variant='secondary' className='whitespace-nowrap text-sm'>
               Python
@@ -25,7 +25,7 @@ export default function Skills() {
           <h4 className='text-lg font-semibold tracking-tight'>Game Development</h4>
           <div className='flex flex-wrap gap-2'>
             <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Unity game engine (proficient)
+              Unity game engine
             </Badge>
             <Badge variant='secondary' className='whitespace-nowrap text-sm'>
               Unreal engine
