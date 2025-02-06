@@ -8,117 +8,119 @@ export default function Work() {
       </h2>
       <div className='flex w-full flex-col items-center gap-6'>
         <div className='flex w-full flex-col gap-4'>
-          <div className='flex flex-col justify-between gap-2 lg:flex-row'>
+          <div className='flex flex-col justify-between gap-2 sm:flex-row'>
             <div className='flex flex-col'>
-              <h4 className='text-xl font-semibold sm:text-2xl'>Persia Arya Ceramic Co</h4>
+              <h4 className='text-xl font-semibold sm:text-2xl'>FIXENT.CA</h4>
+              <h5 className='text-lg font-medium sm:text-xl'>Data Engineer</h5>
+            </div>
+            <div className='text-end text-base font-medium text-muted-foreground sm:text-lg md:text-xl'>
+              September 2024 - Present
+            </div>
+          </div>
+          <ul className='ml-6 list-disc [&>li]:mt-1'>
+            <li>
+              Created a data pipeline for extracting data from an API and loading it into Snowflake tables as
+              variant type.
+            </li>
+            <li>
+              Developed an ETL process to extract multiple files on a daily basis using AWS Glue, storing
+              transformed data in Parquet format in AWS S3.
+            </li>
+            <li>Created stored procedures in Snowflake to retrieve data from the audit framework.</li>
+            <li>
+              Developed several lambda functions in Python for converting to CSV files and decrypting text
+              files in AWS S3 bucket.
+            </li>
+            <li>
+              Developed and executed SQL queries to extract and analyze data from multiple database tables,
+              providing valuable insights for business stakeholders.
+            </li>
+            <li>Migrated MySQL Stored Procedure to snowflake SP.</li>
+          </ul>
+        </div>
+        <Separator className='w-3/5' />
+
+        <div className='flex w-full flex-col gap-4'>
+          <div className='flex flex-col justify-between gap-2 sm:flex-row'>
+            <div className='flex flex-col'>
+              <h4 className='text-xl font-semibold sm:text-2xl'>Persia Ceramic Arya</h4>
+              <h5 className='text-lg font-medium sm:text-xl'>Data Engineer</h5>
+            </div>
+            <div className='text-end text-base font-medium text-muted-foreground sm:text-lg md:text-xl'>
+              January 2021 -July 2024
+            </div>
+          </div>
+          <ul className='ml-6 list-disc [&>li]:mt-1'>
+            <li>
+              Developed and executed optimized SQL queries to extract and analyze data from multiple database
+              tables, delivering actionable insights for business stakeholders.
+            </li>
+            <li>
+              Designed and implemented scalable and efficient data pipelines for data processing and
+              transformation using distributed computing frameworks such as PySpark.{' '}
+            </li>
+            <li>
+              Enhanced the ETL platform by developing Python-based automation scripts, adding new features
+              that improved efficiency and reduced manual intervention.
+            </li>
+            <li>
+              Built Spark applications using PySpark in a distributed environment to process and load large
+              volumes of CSV files with varying schemas into a centralized data repository.
+            </li>
+            <li>
+              Developed Python code to merge, join, and concatenate different CSV files, ensuring data
+              consistency and accuracy across the pipeline.
+            </li>
+            <li>
+              Created a data model for survey data and built a Python script to fetch data from the Survey
+              API. The data was loaded into PostgreSQL database to support Tableau reporting.
+            </li>
+            <li>
+              Utilized advanced database development techniques and analytical skills to streamline data
+              workflows and support business intelligence needs.
+            </li>
+          </ul>
+        </div>
+        <Separator className='w-3/5' />
+
+        <div className='flex w-full flex-col gap-4'>
+          <div className='flex flex-col justify-between gap-2 sm:flex-row'>
+            <div className='flex flex-col'>
+              <h4 className='text-xl font-semibold sm:text-2xl'>MIDOPIA Game Studio</h4>
               <h5 className='text-lg font-medium sm:text-xl'>Software Engineer</h5>
             </div>
             <div className='text-end text-base font-medium text-muted-foreground sm:text-lg md:text-xl'>
-              Tehran-Iran November 2021 - July 2024
+              November 2016-May 2018
             </div>
           </div>
-          <p className='leading-7'>
-            Work with developed software and enhanced the products.Design, develop, test, and deploy software
-            applications and systems according to specifications and project requirements.
-          </p>
-          <h6 className='text-muted-foreground'>Accomplishments</h6>
-          <ul className='-mt-3 ml-6 list-disc [&>li]:mt-1'>
+          <ul className='ml-6 list-disc [&>li]:mt-1'>
+            <li>Designed and developed engaging 2D and 3D games using Unity3D and Unreal Engine.</li>
             <li>
-              Designed, developed, tested, and deployed software applications and systems based on project
-              requirements.
-            </li>
-            <li>Created well-documented technical documents in compliance with template standards.</li>
-            <li>
-              Built positive relationships with stakeholders, effectively coordinating work activities to
-              achieve project goals.
+              Proficient in game physics, AI behavior scripting, and level design to create immersive player
+              experiences.
             </li>
             <li>
-              Wrote clean, testable code, and conducted troubleshooting, debugging, and system upgrades.
+              Developed and deployed mobile games for Android in Iranian market, achieving 500K downloads in
+              10 months.
             </li>
             <li>
-              Ensured software was updated with the latest features, maintaining relevance and functionality.
-            </li>
-          </ul>
-        </div>
-
-        <Separator className='w-3/5' />
-
-        <div className='flex w-full flex-col gap-4'>
-          <div className='flex flex-col justify-between gap-2 lg:flex-row'>
-            <div className='flex flex-col'>
-              <h4 className='text-xl font-semibold sm:text-2xl'>Ertebat Gostar Partov-e-Abi Company</h4>
-              <h5 className='text-lg font-medium sm:text-xl'>Post Processing Engineer</h5>
-            </div>
-            <div className='text-end text-base font-medium text-muted-foreground sm:text-lg md:text-xl'>
-              Tehran - Iran - March 2021 - July 2021
-            </div>
-          </div>
-          <p className='leading-7'>
-            Working in a telecom company as a post processing engineer .Established strong working
-            relationships with clients through exceptional communication skills, fostering trust and
-            collaboration.
-          </p>
-          <h6 className='text-muted-foreground'>Accomplishments</h6>
-          <ul className='-mt-3 ml-6 list-disc [&>li]:mt-1'>
-            <li>Wrote, reviewed and edited technical document in accordance with template requirements.</li>
-            <li>
-              Developed positive working relationships with stakeholders to effectively coordinate work
-              activities.
+              Developed automation scripts with Python and added as a new feature to existing ETL platform.
             </li>
             <li>
-              Achieved successful project outcomes by maintaining accurate documentation and meeting strict
-              deadlines.
+              Introduced procedural generation techniques, improving game replayability and reducing manual
+              level design time
             </li>
-          </ul>
-        </div>
-
-        <Separator className='w-3/5' />
-
-        <div className='flex w-full flex-col gap-4'>
-          <div className='flex flex-col justify-between gap-2 lg:flex-row'>
-            <div className='flex flex-col'>
-              <h4 className='text-xl font-semibold sm:text-2xl'>Tettra puzzle</h4>
-              <h5 className='text-lg font-medium sm:text-xl'>Game designer</h5>
-            </div>
-            <div className='text-end text-base font-medium text-muted-foreground sm:text-lg md:text-xl'>
-              Tehran - Iran - December 2020 - February 2021
-            </div>
-          </div>
-          <p className='leading-7'>
-            Worked on transitioning an Android game version to iOS using the Unity platform.
-          </p>
-          <h6 className='text-muted-foreground'>Accomplishments</h6>
-          <ul className='-mt-3 ml-6 list-disc [&>li]:mt-1'>
-            <li>Successfully exported a fully functional version of the game to iOS.</li>
-            <li>Ensured high-quality gameplay and performance on iOS devices.</li>
-          </ul>
-        </div>
-
-        <Separator className='w-3/5' />
-
-        <div className='flex w-full flex-col gap-4'>
-          <div className='flex flex-col justify-between gap-2 lg:flex-row'>
-            <div className='flex flex-col'>
-              <h4 className='text-xl font-semibold sm:text-2xl'>MIDOPIA GAME STUDIO</h4>
-              <h5 className='text-lg font-medium sm:text-xl'>Game designer programmer</h5>
-            </div>
-            <div className='text-end text-base font-medium text-muted-foreground sm:text-lg md:text-xl'>
-              Rasht - Iran - November 2016 - May 2018
-            </div>
-          </div>
-          <p className='leading-7'>
-            Contributed to game development in a startup environment, releasing three games in the Iranian
-            market with positive feedback.
-          </p>
-          <h6 className='text-muted-foreground'>Accomplishments</h6>
-          <ul className='-mt-3 ml-6 list-disc [&>li]:mt-1'>
             <li>
-              Collaborated with software development and testing teams to design and develop robust solutions
-              meeting client requirements.
+              Collaborated with artists and sound designers to align game assets with gameplay mechanics.
             </li>
-            <li>Identified and implemented process improvements, enhancing development efficiency.</li>
-            <li>Resolved complex coding issues, improving software functionality.</li>
-            <li>Designed user interfaces that improved product usability and customer satisfaction.</li>
+            <li>Pioneered the use of machine learning for NPC behavior, enhancing player engagement.</li>
+            <li>
+              Knowledge of AR/VR development, creating immersive gaming experiences using Unity XR Toolkit.
+            </li>
+            <li>
+              Utilized automated testing scripts to ensure game stability across multiple devices and
+              platforms.
+            </li>
           </ul>
         </div>
       </div>

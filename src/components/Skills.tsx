@@ -6,71 +6,34 @@ export default function Skills() {
       <h2 className='scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight text-primary sm:text-3xl'>
         SKILLS
       </h2>
-      <div className='flex flex-col gap-6'>
-        <div className='flex flex-col gap-2'>
-          <h4 className='text-lg font-semibold tracking-tight'>Programming Languages</h4>
-          <div className='flex flex-wrap gap-2'>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              C#
-            </Badge>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Python
-            </Badge>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Java
-            </Badge>
-          </div>
-        </div>
-        <div className='flex flex-col gap-2'>
-          <h4 className='text-lg font-semibold tracking-tight'>Game Development</h4>
-          <div className='flex flex-wrap gap-2'>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Unity game engine
-            </Badge>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Unreal engine
-            </Badge>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Game Maker
-            </Badge>
-          </div>
-        </div>
-        <div className='flex flex-col gap-2'>
-          <h4 className='text-lg font-semibold tracking-tight'>Software Development</h4>
-          <div className='flex flex-wrap gap-2'>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Visual Studio
-            </Badge>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Agile Methodology
-            </Badge>
-          </div>
-        </div>
-        <div className='flex flex-col gap-2'>
-          <h4 className='text-lg font-semibold tracking-tight'>Tools and Technologies</h4>
-          <div className='flex flex-wrap gap-2'>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Numpy
-            </Badge>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Pandas
-            </Badge>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Matplotlib
-            </Badge>
-          </div>
-        </div>
-        <div className='flex flex-col gap-2'>
-          <h4 className='text-lg font-semibold tracking-tight'>Operating System</h4>
-          <div className='flex flex-wrap gap-2'>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              GNU/Linux
-            </Badge>
-            <Badge variant='secondary' className='whitespace-nowrap text-sm'>
-              Windows
-            </Badge>
-          </div>
-        </div>
+      <div className='flex flex-wrap gap-2'>
+        <Badge variant='secondary' className='whitespace-nowrap text-base'>
+          Python
+        </Badge>
+        <Badge variant='secondary' className='whitespace-nowrap text-base'>
+          PySpark
+        </Badge>
+        <Badge variant='secondary' className='whitespace-nowrap text-base'>
+          SQL
+        </Badge>
+        <Badge variant='secondary' className='whitespace-nowrap text-base'>
+          C#
+        </Badge>
+        <Badge variant='secondary' className='whitespace-nowrap text-base'>
+          JAVA
+        </Badge>
+        <Badge variant='secondary' className='whitespace-nowrap text-base'>
+          AWS Cloud Services
+        </Badge>
+        <Badge variant='secondary' className='whitespace-nowrap text-base'>
+          Snowflake
+        </Badge>
+        <Badge variant='secondary' className='whitespace-nowrap text-base'>
+          Machine Learning
+        </Badge>
+        <Badge variant='secondary' className='whitespace-nowrap text-base'>
+          Unity Engine
+        </Badge>
       </div>
     </div>
   )

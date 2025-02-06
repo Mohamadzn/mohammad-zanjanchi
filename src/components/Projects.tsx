@@ -18,17 +18,6 @@ export default function Projects() {
             with sentiment analysis from Twitter and Google.
           </p>
         </div>
-        <div className='flex flex-col gap-4'>
-          <div className='flex flex-col justify-between gap-2 lg:flex-row xl:flex-col'>
-            <div className='flex flex-col'>
-              <h4 className='text-xl font-semibold sm:text-2xl xl:text-xl'>Simulate Guilan University</h4>
-            </div>
-          </div>
-          <p className='leading-7'>
-            My bachelor project was to simulate Guilan university faculty and developing mini games in the
-            area and using the latest feature like virtual reality in the place.
-          </p>
-        </div>
       </div>
     </div>
   )
